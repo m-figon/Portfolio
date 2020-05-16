@@ -9,34 +9,20 @@
 }
 .home h1{
     margin-left: 0;
-    width:50rem;
+    width:60rem;
     font-size: 3rem;
     color: rgba(255, 255, 255, 0.7);
     margin-top: 1rem;
+    letter-spacing: 7px;
+    font-weight: 300;
+
 }
 .home h2{
     margin-left: 0;
-    font-size: 6rem;
-    width:50rem;
+    font-size: 7rem;
+    width:60rem;
     color: rgba(255, 255, 255, 0.7);
     margin-bottom: 0.5rem;
-}
-.footer{
-    margin-left: -2vw;
-    position: absolute;
-    width:100vw;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    align-items: center;
-}
-.footer h1{
-    font-size: 0.8rem;
-    color: rgba(255, 255, 255, 0.7);
-}
-.footer img{
-    margin-left: 0.5rem;
-    width: 2rem;
-    height: 2rem;
-    filter:invert(75%);
+    letter-spacing: 10px;
+    font-weight: 300;
 }
