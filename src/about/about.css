@@ -17,8 +17,13 @@
     margin-right: 3vw;
 }
 .about .description {
-    width: 40vw;
-    height: 20vh;
+    width: 45rem;
+    height: 25rem;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    background-color: rgb(0, 0, 0, 0.4);
+    border-radius: 10px;
+    border: 2px solid rgba(255, 255, 255, 0.2);
     display: flex;
     justify-content: center;
     align-items: center;

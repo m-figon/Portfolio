@@ -6,6 +6,7 @@ import react from './react.png';
 import NavigationBar from './navigationBar/navigationBar.jsx';
 import HomeDisplay from './homeDisplay/homeDisplay.jsx';
 import About from './about/about.jsx';
+import Project from './projects/projects.jsx';
 class App extends Component {
 
   render() {
@@ -23,11 +24,19 @@ class App extends Component {
         </>
       );
     }
+    const ProjectsPage = () => {
+      return (
+        <>
+          <Project />
+        </>
+      );
+    }
     return (
       <div className="App">
         <NavigationBar />
         <Route exact path="/" component={HomePage} />
         <Route exact path="/About" component={AboutPage} />
+        <Route exact path="/Projects" component={ProjectsPage} />
         <div className="footer">
           <div className="footer-content">
           <h1>Made with </h1><img src={react} alt=""></img>
