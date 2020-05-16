@@ -1,7 +1,29 @@
 .App {
   width:100vw;
   height: 100vh;
-  background: url('background2.jpg') no-repeat fixed center ;
+  background: url('background.jpg') no-repeat fixed center ;
   background-size: 100% 100%;
   font-family: 'Lato', sans-serif;
+}
+.App h1{
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 2rem;
+}
+.footer{
+  margin-left: -2vw;
+  position: absolute;
+  width:100vw;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.footer h1{
+  font-size: 0.8rem;
+  color: rgba(255, 255, 255, 0.7);
+}
+.footer img{
+  margin-left: 0.5rem;
+  width: 2rem;
+  height: 2rem;
+  filter:invert(75%);
 }

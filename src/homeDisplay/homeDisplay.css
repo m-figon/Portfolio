@@ -5,19 +5,19 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-left: -10rem;
+    margin-left: -10vw;
 }
 .home h1{
     margin-left: 0;
-    width:40rem;
+    width:50rem;
     font-size: 3rem;
     color: rgba(255, 255, 255, 0.7);
     margin-top: 1rem;
 }
 .home h2{
     margin-left: 0;
-    font-size: 4rem;
-    width:40rem;
+    font-size: 6rem;
+    width:50rem;
     color: rgba(255, 255, 255, 0.7);
     margin-bottom: 0.5rem;
 }
