@@ -1,0 +1,42 @@
+.home{
+    width: 100vw;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: -10rem;
+}
+.home h1{
+    margin-left: 0;
+    width:40rem;
+    font-size: 3rem;
+    color: rgba(255, 255, 255, 0.7);
+    margin-top: 1rem;
+}
+.home h2{
+    margin-left: 0;
+    font-size: 4rem;
+    width:40rem;
+    color: rgba(255, 255, 255, 0.7);
+    margin-bottom: 0.5rem;
+}
+.footer{
+    margin-left: -2vw;
+    position: absolute;
+    width:100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+.footer h1{
+    font-size: 0.8rem;
+    color: rgba(255, 255, 255, 0.7);
+}
+.footer img{
+    margin-left: 0.5rem;
+    width: 2rem;
+    height: 2rem;
+    filter:invert(75%);
+}
