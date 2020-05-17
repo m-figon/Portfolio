@@ -2,6 +2,7 @@ import React from 'react'
 import './projects.css';
 import projectData from '../projects.json';
 import github from './github-logo.png';
+import ReactPlayer from 'react-player';
 function project(props) {
     if (props.projectId !== null) {
         let technologies = projectData[props.projectId].technologies.map((elem) => {
@@ -13,9 +14,7 @@ function project(props) {
             <div id={props.visibleId} className="selected-project">
                 <div className="selected-project-content">
                     <div className="left-part">
-                        <div className="part-content">
-                            <img src="https://robohash.org/%22?sets=1,3%22" alt=""></img>
-                        </div>
+                        <ReactPlayer height="300px" width="400px" url="https://www.youtube.com/watch?v=jX6kn9_U8qk&t=22242s" controls />
                     </div>
                     <div className="right-part">
                         <div className="part-content">
