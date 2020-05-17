@@ -2,59 +2,67 @@
     {
         "name": "FitnessTracker",
         "img": "",
-        "description" :"",
-        "technologies": "",
+        "description" :"Goal of this project was creating a fitness app website, which allows users to track calories by adding meals, set nutrition goals, track body weight and workout progress",
+        "technologies": ["React","Sass","Chart.js","JavaScript","HTML & CSS"],
+        "link": "https://github.com/m-figon/FitnessTracker",
         "id":0
     },
     {
         "name": "ChatApp",
         "img": "",
-        "description" :"",
-        "technologies": "",
+        "description" :"Goal of this project was creating a chat app website, which allows users to enter one of chat channels which are divided by topics (e.g Music, Fitness, Gaming, Gardening)",
+        "technologies": ["React","Sass","Emoji.js","JavaScript","HTML & CSS"],
+        "link": "https://github.com/m-figon/ChatApp",
         "id":1
 
     },
     {
         "name": "WebForum",
         "img": "",
-        "description" :"",
-        "technologies": "",
+        "description" :"Goal of this project was creating a forum website which allows user to create post and other users to comment it, give it a rating",
+        "technologies": ["React","Sass","JavaScript","HTML & CSS"],
+        "link": "https://github.com/m-figon/WebForum",
         "id":2
 
     },
     {
         "name": "GameStore",
         "img": "",
-        "description" :"",
-        "technologies": "",
+        "description" :"Goal of this project was creating a game store website, which allows user to  search for a products sorted by console type, add products to shopping cart and also delete it from the cart",
+        "technologies": ["React","Sass","JavaScript","HTML & CSS"],
+        "link": "https://github.com/m-figon/GameStore",
         "id":3
     },
     {
         "name": "FastTyping",
         "img": "",
-        "description" :"",
-        "technologies": "",
+        "description" :"This app makes it possible to practice fast typing skill, user has a strict ammount of time to enter random phrase",
+        "technologies": ["JavaScript","HTML & CSS"],
+        "link": "https://github.com/m-figon/JSMiniProjects/tree/master/FastTyping",
         "id":4
     },
     {
         "name": "Piano",
         "img": "",
-        "description" :"",
-        "technologies": "",
+        "description" :"This app makes it possible to play piano and choosing in which octave user wants to play",
+        "technologies": ["JavaScript","HTML & CSS"],
+        "link" :"https://github.com/m-figon/JSMiniProjects/tree/master/Piano",
         "id":5
     },
     {
         "name": "DragAndDropGame",
         "img": "",
-        "description" :"",
-        "technologies": "",
+        "description" :"This app is a simple game which consists of draggin a ball and dropping it in a right place",
+        "technologies": ["JavaScript","HTML & CSS"],
+        "link": "https://github.com/m-figon/JSMiniProjects/tree/master/DragAndDrop",
         "id":6
     },
     {
         "name": "Snake",
         "img": "",
-        "description" :"",
-        "technologies": "",
+        "description" :"This is a simple snake game using canvas",
+        "technologies": ["JavaScript","HTML & CSS"],
+        "link": "https://github.com/m-figon/JSMiniProjects/tree/master/Snake",
         "id":7
     }
 ]

@@ -13,7 +13,7 @@ class App extends Component {
     super();
     this.state = {
       appId: "",
-      projectId: 0,
+      projectId: null,
       visibleId: ""
     }
     this.settingBlur = this.settingBlur.bind(this);
@@ -28,7 +28,7 @@ class App extends Component {
     } else if (this.state.appId === "blured") {
       this.setState({
         appId: "",
-        projectId: idValue,
+        projectId: null,
         visibleId: ""
       })
     }
@@ -69,7 +69,7 @@ class App extends Component {
 
           </div>
         </div>
-        <Project projectId={this.state.projectId} visibleId={this.state.visibleId}/>
+        <Project projectId={this.state.projectId} visibleId={this.state.visibleId} settingBlur={this.settingBlur}/>
       </>
     );
   }
