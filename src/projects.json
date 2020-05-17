@@ -3,50 +3,58 @@
         "name": "FitnessTracker",
         "img": "",
         "description" :"",
-        "technologies": ""
+        "technologies": "",
+        "id":0
     },
     {
         "name": "ChatApp",
         "img": "",
         "description" :"",
-        "technologies": ""
+        "technologies": "",
+        "id":1
 
     },
     {
         "name": "WebForum",
         "img": "",
         "description" :"",
-        "technologies": ""
+        "technologies": "",
+        "id":2
 
     },
     {
         "name": "GameStore",
         "img": "",
         "description" :"",
-        "technologies": ""
+        "technologies": "",
+        "id":3
     },
     {
         "name": "FastTyping",
         "img": "",
         "description" :"",
-        "technologies": ""
+        "technologies": "",
+        "id":4
     },
     {
         "name": "Piano",
         "img": "",
         "description" :"",
-        "technologies": ""
+        "technologies": "",
+        "id":5
     },
     {
         "name": "DragAndDropGame",
         "img": "",
         "description" :"",
-        "technologies": ""
+        "technologies": "",
+        "id":6
     },
     {
         "name": "Snake",
         "img": "",
         "description" :"",
-        "technologies": ""
+        "technologies": "",
+        "id":7
     }
 ]

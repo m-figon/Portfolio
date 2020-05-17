@@ -40,3 +40,6 @@
   height: 2rem;
   filter:invert(75%);
 }
+#blured{
+  filter: blur(4px);
+}
