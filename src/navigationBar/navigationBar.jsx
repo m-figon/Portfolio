@@ -32,7 +32,7 @@ class navigationBar extends Component {
                     <Link to="/Projects" style={{ textDecoration: 'none', color: "rgba(255, 255, 255, 0.7)" }}><h1 id={this.state.id3} onClick={()=>this.click('id3')}>Projects</h1></Link>
                     <Link to="/Contact" style={{ textDecoration: 'none', color: "rgba(255, 255, 255, 0.7)" }}><h1 id={this.state.id4} onClick={()=>this.click('id4')}>Contact</h1></Link>
                     <a href="https://github.com/m-figon/"><img id="circle" src={github} alt=""/></a>
-                    <a href="https://www.linkedin.com/in/mateusz-figo%C5%84/"><img  id="circle" src={linkedin} alt=""/></a>
+                    <a href="https://www.linkedin.com/in/mateusz-figo%C5%84/"><img src={linkedin} alt=""/></a>
                     <a href="https://drive.google.com/open?id=1IjOpfUKuKWuPkzt0AXClr1Ivmn4fe7as"><img  src={cv} alt=""/></a>
                 </div>
             </div>
