@@ -45,3 +45,89 @@
     width: 8rem;
     height: 8rem;
 }
+@media only screen and (max-width: 1150px) {
+    .contact-content h1 {
+        font-size: 1.2rem;
+    }
+    .contact-content h2 {
+        font-size: 2.0rem;
+    }
+    .contact-content {
+        padding-left: 2rem;
+        padding-right: 2rem;
+        width: 35rem;
+        height: 15rem;
+    }
+    .email-picture img {
+        width: 6rem;
+        height: 6rem;
+    }
+    
+  }
+  @media only screen and (max-height: 650px) {
+    .contact-content h1 {
+        font-size: 1.2rem;
+    }
+    .contact-content h2 {
+        font-size: 2.0rem;
+    }
+    .contact-content {
+        padding-left: 2rem;
+        padding-right: 2rem;
+        width: 35rem;
+        height: 15rem;
+    }
+    .email-picture img {
+        width: 6rem;
+        height: 6rem;
+    }
+    
+  }
+  @media only screen and (max-width: 750px) {
+    .contact-content h1 {
+        font-size: 1.0rem;
+    }
+    .contact-content h2 {
+        font-size: 1.7rem;
+    }
+    .contact-content {
+        padding-left: 1rem;
+        padding-right: 1rem;
+        width: 32rem;
+        height: 13rem;
+    }
+    .email-picture img {
+        filter: invert(75%);
+        width: 4rem;
+        height: 4rem;
+    }
+    .email-picture{
+        top: -20%;
+        left: 80%;
+        z-index: 5;
+    }
+  }
+  @media only screen and (max-height: 550px) {
+    .contact-content h1 {
+        font-size: 1.0rem;
+    }
+    .contact-content h2 {
+        font-size: 1.7rem;
+    }
+    .contact-content {
+        padding-left: 1rem;
+        padding-right: 1rem;
+        width: 32rem;
+        height: 13rem;
+    }
+    .email-picture img {
+        filter: invert(75%);
+        width: 4rem;
+        height: 4rem;
+    }
+    .email-picture{
+        top: -20%;
+        left: 80%;
+        z-index: 5;
+    }
+  }

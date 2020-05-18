@@ -26,3 +26,33 @@
     letter-spacing: 10px;
     font-weight: 300;
 }
+@media only screen and (max-width: 1300px) {
+    .home h1{
+        width:40rem;
+        font-size: 2rem;
+    }
+    .home h2{
+        font-size: 4.5rem;
+        width:40rem;
+    }
+  }
+  @media only screen and (max-width: 850px) , screen and (max-height: 550px) {
+    .home h1{
+        width:30rem;
+        font-size: 1.5rem;
+    }
+    .home h2{
+        font-size: 3rem;
+        width:30rem;
+    }
+  }
+  @media only screen and (max-width: 650px), screen and (max-height: 400px) {
+    .home h1{
+        width:25rem;
+        font-size: 1.2rem;
+    }
+    .home h2{
+        font-size: 2.4rem;
+        width:25rem;
+    }
+  }

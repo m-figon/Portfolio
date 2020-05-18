@@ -22,7 +22,9 @@ function project(props) {
                             <div className="one-line">
                                 {technologies}
                             </div>
-                            <h1>{projectData[props.projectId].description}</h1>
+                            <div className="project-description">
+                                <h1>{projectData[props.projectId].description}</h1>
+                            </div>
                             <a href={projectData[props.projectId].link}><button><img src={github}></img>View Code</button></a>
                         </div>
                     </div>

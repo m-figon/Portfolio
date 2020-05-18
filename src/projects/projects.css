@@ -35,6 +35,10 @@
     color: rgba(255, 255, 255, 0.7);
     font-size: 2rem;
 }
+.project-description{
+    width: 30em;
+    height: 12rem;
+}
 .one-line {
     display: flex;
 }
@@ -129,8 +133,8 @@ button img {
     margin-bottom: 5vh;
 }
 .project-content {
-    width: 17rem;
-    height: 12rem;
+    width: 24rem;
+    height: 15rem;
     background-color: rgb(0, 0, 0, 0.4);
     border-radius: 10px;
     border: 2px solid rgba(255, 255, 255, 0.2);
@@ -144,15 +148,130 @@ button img {
     font-size: 1.5rem;
 }
 .project-content:hover {
-    width: 18rem;
-    height: 13rem;
+    width: 25rem;
+    height: 16rem;
     border: 2px solid rgba(255, 255, 255, 0.4);
     cursor: pointer;
 }
 .project-content img {
     width: 100%;
-    height: 8rem;
+    height: 70%;
 }
 a {
     text-decoration: none;
+}
+
+@media only screen and (max-width: 1700px), screen and (max-height: 700px) {
+    .project-content {
+        width: 17rem;
+        height: 12rem;
+    }
+    .project-content:hover {
+        width: 18rem;
+        height: 13rem;
+    }
+    .project-content img {
+        height:60%;
+        width:90%;
+    }
+    .project-content h1 {
+        margin-left: 0.7rem;
+        font-size: 1.2rem;
+    }
+}
+@media only screen and (max-width: 1400px) , screen and (max-height: 600px)  {
+    .project-content {
+        width: 14rem;
+        height: 10rem;
+    }
+    .project-content:hover {
+        width: 15rem;
+        height: 11rem;
+    }
+    .project-content img {
+        height:50%;
+        width:85%;
+    }
+    .project-content h1 {
+        margin-left: 0.7rem;
+        font-size: 1.0rem;
+    }
+}
+@media only screen and (max-width: 1000px) , screen and (max-height: 530px){
+    .project-content {
+        width: 11rem;
+        height: 8rem;
+    }
+    .project-content:hover {
+        width: 12rem;
+        height: 9rem;
+    }
+    .project-content img {
+        height:40%;
+        width:85%;
+    }
+    .project-content h1 {
+        margin-left: 0.7rem;
+        font-size: 0.8rem;
+    }
+    .selected-project-content {
+        width: 43em;
+        height: 20rem;
+    }
+    .selected-project-content h1 {
+        margin-left: 0.7rem;
+        font-size: 1.1rem;
+    }
+    .selected-project-content h2 {
+        margin-left: 0.7rem;
+        font-size: 1.5rem;
+    }
+    .technology {
+        margin-left: 0.3rem;
+        margin-right: 0.3rem;
+        width: 3.5rem;
+        height: 1.5rem;
+        font-size: 0.6rem;
+    }
+    .project-description{
+        width: 15em;
+        height: 10rem;
+    }
+}
+@media only screen and (max-width: 800px), screen and (max-height: 450px) {
+    .project-content {
+        width: 9rem;
+        height: 6rem;
+    }
+    .project-content:hover {
+        width: 10rem;
+        height: 7rem;
+    }
+    .project-content img {
+        height:30%;
+        width:85%;
+    }
+    .selected-project-content {
+        width: 37em;
+        height: 20rem;
+    }
+    .selected-project-content h1 {
+        margin-left: 0.5rem;
+        font-size: 0.9rem;
+    }
+    .selected-project-content h2 {
+        margin-left: 0.5rem;
+        font-size: 1.2rem;
+    }
+    .technology {
+        margin-left: 0.3rem;
+        margin-right: 0.3rem;
+        width: 2.2rem;
+        height: 1.5rem;
+        font-size: 0.5rem;
+    }
+    .project-description{
+        width: 12em;
+        height: 11rem;
+    }
 }
