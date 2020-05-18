@@ -8,6 +8,7 @@ import HomeDisplay from './homeDisplay/homeDisplay.jsx';
 import About from './about/about.jsx';
 import Projects from './projects/projects.jsx';
 import Project from './projects/project.jsx';
+import Contact from './contact/contact.jsx';
 class App extends Component {
   constructor() {
     super();
@@ -55,6 +56,13 @@ class App extends Component {
         </>
       );
     }
+    const ContactPage = () => {
+      return (
+        <>
+          <Contact />
+        </>
+      );
+    }
     return (
       <>
         <div className="App" id={this.state.appId}>
@@ -62,6 +70,7 @@ class App extends Component {
           <Route exact path="/" component={HomePage} />
           <Route exact path="/About" component={AboutPage} />
           <Route exact path="/Projects" component={ProjectsPage} />
+          <Route exact path="/Contact" component={ContactPage} />
           <div className="footer">
             <div className="footer-content">
               <h1>Made with </h1><img src={react} alt=""></img>
