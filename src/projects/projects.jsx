@@ -7,7 +7,7 @@ function projects(props) {
             <div  onClick={()=>props.settingBlur(item.id)}className="project">
                 <div className="project-content">
                     <h1>{item.name}</h1>
-                    <img src="https://robohash.org/%22?sets=1,3%22" alt=""></img>
+                    <img src={item.img} alt=""></img>
                 </div>
             </div>
         );

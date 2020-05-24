@@ -148,8 +148,6 @@ button img {
     font-size: 1.5rem;
 }
 .project-content:hover {
-    width: 25rem;
-    height: 16rem;
     border: 2px solid rgba(255, 255, 255, 0.4);
     cursor: pointer;
 }
@@ -166,10 +164,6 @@ a {
         width: 17rem;
         height: 12rem;
     }
-    .project-content:hover {
-        width: 18rem;
-        height: 13rem;
-    }
     .project-content img {
         height:60%;
         width:90%;
@@ -184,10 +178,6 @@ a {
         width: 14rem;
         height: 10rem;
     }
-    .project-content:hover {
-        width: 15rem;
-        height: 11rem;
-    }
     .project-content img {
         height:50%;
         width:85%;
@@ -201,10 +191,6 @@ a {
     .project-content {
         width: 11rem;
         height: 8rem;
-    }
-    .project-content:hover {
-        width: 12rem;
-        height: 9rem;
     }
     .project-content img {
         height:40%;
@@ -243,10 +229,6 @@ a {
         width: 9rem;
         height: 6rem;
     }
-    .project-content:hover {
-        width: 10rem;
-        height: 7rem;
-    }
     .project-content img {
         height:30%;
         width:85%;
@@ -269,6 +251,10 @@ a {
         width: 2.2rem;
         height: 1.5rem;
         font-size: 0.5rem;
+    }
+    .one-line{
+        display: flex;
+        align-items: center;
     }
     .project-description{
         width: 12em;

@@ -25,7 +25,10 @@ function project(props) {
                             <div className="project-description">
                                 <h1>{projectData[props.projectId].description}</h1>
                             </div>
-                            <a href={projectData[props.projectId].link}><button><img src={github}></img>View Code</button></a>
+                            <div className="one-line">
+                                <a href={projectData[props.projectId].site}><button>Try page</button></a>
+                                <a href={projectData[props.projectId].github}><button><img src={github}></img>View Code</button></a>
+                            </div>
                         </div>
                     </div>
                     <div className="button-div">
