@@ -45,7 +45,7 @@
     width: 8rem;
     height: 8rem;
 }
-@media only screen and (max-width: 1150px) {
+@media only screen and (max-width: 1150px), screen and (max-height: 650px) {
     .contact-content h1 {
         font-size: 1.2rem;
     }
@@ -62,28 +62,9 @@
         width: 6rem;
         height: 6rem;
     }
-    
-  }
-  @media only screen and (max-height: 650px) {
-    .contact-content h1 {
-        font-size: 1.2rem;
-    }
-    .contact-content h2 {
-        font-size: 2.0rem;
-    }
-    .contact-content {
-        padding-left: 2rem;
-        padding-right: 2rem;
-        width: 35rem;
-        height: 15rem;
-    }
-    .email-picture img {
-        width: 6rem;
-        height: 6rem;
-    }
-    
-  }
-  @media only screen and (max-width: 750px) {
+} 
+
+  @media only screen and (max-width: 750px) , screen and (max-height: 550px){
     .contact-content h1 {
         font-size: 1.0rem;
     }
@@ -107,18 +88,18 @@
         z-index: 5;
     }
   }
-  @media only screen and (max-height: 550px) {
+  @media only screen and (max-width: 600px){
     .contact-content h1 {
-        font-size: 1.0rem;
+        font-size: 0.8rem;
     }
     .contact-content h2 {
-        font-size: 1.7rem;
+        font-size: 1.3rem;
     }
     .contact-content {
         padding-left: 1rem;
         padding-right: 1rem;
-        width: 32rem;
-        height: 13rem;
+        width: 20rem;
+        height: 12rem;
     }
     .email-picture img {
         filter: invert(75%);

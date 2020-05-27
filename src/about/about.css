@@ -122,4 +122,20 @@
         font-size: 0.8rem;
     }
   }
+  @media only screen and (max-width: 550px) {
+    .img-contener {
+        width: 8rem;
+        height: 7rem;
+    }
+    .about .description {
+        width: 10rem;
+        height: 12rem;
+        padding-left: 0.5rem;
+        padding-right:  0.5rem;
+    }
+    .about .description h1{
+        font-size: 0.8rem;
+    }
+  }
+
 

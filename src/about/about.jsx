@@ -4,9 +4,9 @@ import './about.css';
 function about() {
     return (
         <>
-            <div class="about">
+            <div className="about">
                 <div className="img-contener">
-                <img src={profile}></img>
+                <img alt="" src={profile}></img>
 
                 </div>
                 <div className="description">
@@ -16,7 +16,7 @@ function about() {
                     am enjoying the process. I am looking
                     forward to gaining more experience as a
                     software developer. My main focus is
-front-end development.</h1>
+                    front-end development.</h1>
                 </div>
 
             </div>

@@ -1,76 +1,84 @@
 [
     {
         "name": "FitnessTracker",
-        "img": "https://raw.githubusercontent.com/m-figon/FitnessTracker/master/src/account/0.png",
+        "img": "https://raw.githubusercontent.com/m-figon/Portfolio/master/src/projects/fitness.png",
         "description" :"Goal of this project was creating a fitness app website, which allows users to track calories by adding meals, set nutrition goals, track body weight and workout progress",
-        "technologies": ["React","Sass","Chart.js","JavaScript","HTML & CSS"],
+        "technologies": ["React","Chart.js","JavaScript","HTML & CSS"],
         "github": "https://github.com/m-figon/FitnessTracker",
         "site": "https://fitness-mfigon.netlify.app",
+        "youtube": "https://www.youtube.com/watch?v=sZ_dZyGF0qU&list=UUhmaqw5MW-CzQw6cishP-vg&index=2",
         "id":0
     },
     {
         "name": "ChatApp",
-        "img": "",
+        "img": "https://raw.githubusercontent.com/m-figon/Portfolio/master/src/projects/chat.png",
         "description" :"Goal of this project was creating a chat app website, which allows users to enter one of chat channels which are divided by topics (e.g Music, Fitness, Gaming, Gardening)",
         "technologies": ["React","Sass","Emoji.js","JavaScript","HTML & CSS"],
         "github": "https://github.com/m-figon/ChatApp",
         "site": "https://chat-mfigon.netlify.app",
+        "youtube": "",
         "id":1
 
     },
     {
         "name": "WebForum",
-        "img": "",
+        "img": "https://raw.githubusercontent.com/m-figon/Portfolio/master/src/projects/forum.png",
         "description" :"Goal of this project was creating a forum website which allows user to create post and other users to comment it, give it a rating",
-        "technologies": ["React","Sass","JavaScript","HTML & CSS"],
+        "technologies": ["React","JavaScript","HTML & CSS"],
         "github": "https://github.com/m-figon/WebForum",
         "site": "https://forum-mfigon.netlify.app",
+        "youtube": "https://www.youtube.com/watch?v=fg858RzQ2fQ&list=UUhmaqw5MW-CzQw6cishP-vg&index=3",
         "id":2
 
     },
     {
         "name": "GameStore",
-        "img": "",
+        "img": "https://raw.githubusercontent.com/m-figon/Portfolio/master/src/projects/gamestore.png",
         "description" :"Goal of this project was creating a game store website, which allows user to  search for a products sorted by console type, add products to shopping cart and also delete it from the cart",
         "technologies": ["React","Sass","JavaScript","HTML & CSS"],
         "github": "https://github.com/m-figon/GameStore",
         "site": "game-store-mfigon.netlify.app",
+        "youtube": "https://www.youtube.com/watch?v=BIPE-ib44nI&list=UUhmaqw5MW-CzQw6cishP-vg&index=1",
         "id":3
     },
     {
         "name": "FastTyping",
-        "img": "https://drive.google.com/file/d/10pEuUrcprh8BeEmhSGcgGgABFYM1PF0a/view",
+        "img": "https://raw.githubusercontent.com/m-figon/Portfolio/master/src/projects/typer.png",
         "description" :"This app makes it possible to practice fast typing skill, user has a strict ammount of time to enter random phrase",
         "technologies": ["JavaScript","HTML & CSS"],
         "github": "https://github.com/m-figon/JSMiniProjects/tree/master/FastTyping",
         "site": "https://fast-typing-mfigon.netlify.app",
+        "youtube": "https://www.youtube.com/watch?v=QNE5u1xaTDY",
         "id":4
     },
     {
         "name": "Piano",
-        "img": "",
+        "img": "https://raw.githubusercontent.com/m-figon/Portfolio/master/src/projects/piano.png",
         "description" :"This app makes it possible to play piano and choosing in which octave user wants to play",
         "technologies": ["JavaScript","HTML & CSS"],
         "github" :"https://github.com/m-figon/JSMiniProjects/tree/master/Piano",
         "site": "https://piano-mfigon.netlify.app",
+        "youtube": "https://www.youtube.com/watch?v=FZkt_0WmrbU",
         "id":5
     },
     {
         "name": "DragAndDropGame",
-        "img": "",
+        "img": "https://raw.githubusercontent.com/m-figon/Portfolio/master/src/projects/drag.png",
         "description" :"This app is a simple game which consists of draggin a ball and dropping it in a right place",
         "technologies": ["JavaScript","HTML & CSS"],
         "github": "https://github.com/m-figon/JSMiniProjects/tree/master/DragAndDrop",
         "site": "https://drag-and-drop-mfigon.netlify.app",
+        "youtube": "https://www.youtube.com/watch?v=DDA45y11Ees&feature=youtu.be",
         "id":6
     },
     {
         "name": "Snake",
-        "img": "",
+        "img": "https://raw.githubusercontent.com/m-figon/Portfolio/master/src/projects/snake.png",
         "description" :"This is a simple snake game using canvas",
         "technologies": ["JavaScript","HTML & CSS"],
         "github": "https://github.com/m-figon/JSMiniProjects/tree/master/Snake",
         "site": "https://snake-mfigon.netlify.app",
+        "youtube": "https://www.youtube.com/watch?v=Tol3exA_25w&list=UUhmaqw5MW-CzQw6cishP-vg&index=5",
         "id":7
     }
 ]

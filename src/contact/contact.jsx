@@ -14,7 +14,7 @@ function contact() {
                 </div>
                 <h1>I will respond as soon as possible</h1>
                 <div className="email-picture">
-                    <img src={email}></img>
+                    <img alt="" src={email}></img>
                 </div>
             </div>
         </div>

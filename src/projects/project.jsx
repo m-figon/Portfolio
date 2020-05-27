@@ -5,16 +5,16 @@ import github from './github-logo.png';
 import ReactPlayer from 'react-player';
 function project(props) {
     if (props.projectId !== null) {
-        let technologies = projectData[props.projectId].technologies.map((elem) => {
+        let technologies = projectData[props.projectId].technologies.map((elem,id) => {
             return (
-                <div className="technology">{elem}</div>
+                <div key={id} className="technology">{elem}</div>
             );
         })
         return (
             <div id={props.visibleId} className="selected-project">
                 <div className="selected-project-content">
                     <div className="left-part">
-                        <ReactPlayer height="300px" width="400px" url="https://www.youtube.com/watch?v=jX6kn9_U8qk&t=22242s" controls />
+                        <ReactPlayer height="300px" width="350px" url={projectData[props.projectId].youtube} controls />
                     </div>
                     <div className="right-part">
                         <div className="part-content">
@@ -27,7 +27,7 @@ function project(props) {
                             </div>
                             <div className="one-line">
                                 <a href={projectData[props.projectId].site}><button>Try page</button></a>
-                                <a href={projectData[props.projectId].github}><button><img src={github}></img>View Code</button></a>
+                                <a href={projectData[props.projectId].github}><button><img alt="" src={github}></img>View Code</button></a>
                             </div>
                         </div>
                     </div>

@@ -151,9 +151,14 @@ button img {
     border: 2px solid rgba(255, 255, 255, 0.4);
     cursor: pointer;
 }
+.middle-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .project-content img {
     width: 100%;
-    height: 70%;
+    height: 80%;
 }
 a {
     text-decoration: none;
@@ -163,10 +168,6 @@ a {
     .project-content {
         width: 17rem;
         height: 12rem;
-    }
-    .project-content img {
-        height:60%;
-        width:90%;
     }
     .project-content h1 {
         margin-left: 0.7rem;
@@ -178,23 +179,18 @@ a {
         width: 14rem;
         height: 10rem;
     }
-    .project-content img {
-        height:50%;
-        width:85%;
-    }
     .project-content h1 {
         margin-left: 0.7rem;
         font-size: 1.0rem;
     }
 }
-@media only screen and (max-width: 1000px) , screen and (max-height: 530px){
+@media only screen and (max-width: 1000px){
+    .projects {
+        grid-template-columns: auto auto auto;
+    }
     .project-content {
         width: 11rem;
         height: 8rem;
-    }
-    .project-content img {
-        height:40%;
-        width:85%;
     }
     .project-content h1 {
         margin-left: 0.7rem;
@@ -220,18 +216,20 @@ a {
         font-size: 0.6rem;
     }
     .project-description{
-        width: 15em;
-        height: 10rem;
+        width: 17em;
+        height: 9rem;
+    }
+    .one-line a{
+        margin-top:1.5rem;
     }
 }
-@media only screen and (max-width: 800px), screen and (max-height: 450px) {
+@media only screen and (max-width: 800px){
+    .projects {
+        grid-template-columns: auto auto;
+    }
     .project-content {
         width: 9rem;
         height: 6rem;
-    }
-    .project-content img {
-        height:30%;
-        width:85%;
     }
     .selected-project-content {
         width: 37em;
@@ -259,5 +257,38 @@ a {
     .project-description{
         width: 12em;
         height: 11rem;
+    }
+}
+@media only screen and (max-width: 650px){
+
+    .selected-project-content {
+        flex-direction: column;
+        width: 20rem;
+        height: 39rem;
+    }
+    .selected-project-content h1 {
+        margin-left: 0.5rem;
+        font-size: 0.9rem;
+    }
+    .selected-project-content h2 {
+        margin-left: 0.5rem;
+        font-size: 1.2rem;
+    }
+    .part-content{
+        margin-left: 0.5rem;
+    }
+    .right-part{
+        margin-left: 0;
+    }
+    .left-part{
+        margin-top:5rem;
+    }
+    .project-description{
+        width: 18rem;
+        height: 6rem;
+    }
+    .button-div{
+        top:-91%;
+        left: 90%;
     }
 }

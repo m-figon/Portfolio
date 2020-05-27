@@ -56,3 +56,13 @@
         width:25rem;
     }
   }
+  @media only screen and (max-width: 550px), screen and (max-height: 400px) {
+    .home h1{
+        width:15rem;
+        font-size: 1.0rem;
+    }
+    .home h2{
+        font-size: 2.0rem;
+        width:15rem;
+    }
+  }
