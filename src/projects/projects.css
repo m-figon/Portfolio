@@ -211,7 +211,7 @@ a {
     .technology {
         margin-left: 0.3rem;
         margin-right: 0.3rem;
-        width: 3.5rem;
+        width: 3.0rem;
         height: 1.5rem;
         font-size: 0.6rem;
     }
@@ -220,47 +220,14 @@ a {
         height: 9rem;
     }
     .one-line a{
-        margin-top:1.5rem;
+        margin-top:2rem;
     }
 }
-@media only screen and (max-width: 800px){
+
+@media only screen and (max-width: 700px){
     .projects {
         grid-template-columns: auto auto;
     }
-    .project-content {
-        width: 9rem;
-        height: 6rem;
-    }
-    .selected-project-content {
-        width: 37em;
-        height: 20rem;
-    }
-    .selected-project-content h1 {
-        margin-left: 0.5rem;
-        font-size: 0.9rem;
-    }
-    .selected-project-content h2 {
-        margin-left: 0.5rem;
-        font-size: 1.2rem;
-    }
-    .technology {
-        margin-left: 0.3rem;
-        margin-right: 0.3rem;
-        width: 2.2rem;
-        height: 1.5rem;
-        font-size: 0.5rem;
-    }
-    .one-line{
-        display: flex;
-        align-items: center;
-    }
-    .project-description{
-        width: 12em;
-        height: 11rem;
-    }
-}
-@media only screen and (max-width: 650px){
-
     .selected-project-content {
         flex-direction: column;
         width: 20rem;

@@ -6,13 +6,13 @@
         "technologies": ["React","Chart.js","JavaScript","HTML & CSS"],
         "github": "https://github.com/m-figon/FitnessTracker",
         "site": "https://fitness-mfigon.netlify.app",
-        "youtube": "https://www.youtube.com/watch?v=sZ_dZyGF0qU&list=UUhmaqw5MW-CzQw6cishP-vg&index=2",
+        "youtube": "https://www.youtube.com/watch?v=z5oFjV2dn68",
         "id":0
     },
     {
         "name": "ChatApp",
         "img": "https://raw.githubusercontent.com/m-figon/Portfolio/master/src/projects/chat.png",
-        "description" :"Goal of this project was creating a chat app website, which allows users to enter one of chat channels which are divided by topics (e.g Music, Fitness, Gaming, Gardening)",
+        "description" :"Goal of this project was creating a chat app website, which allows users to enter one of chat channels which are divided by topics (e.g Music, Fitness, Gaming, Gardening), to sign in use account 'test3' and password: 'Test3.user'",
         "technologies": ["React","Sass","Emoji.js","JavaScript","HTML & CSS"],
         "github": "https://github.com/m-figon/ChatApp",
         "site": "https://chat-mfigon.netlify.app",
@@ -23,7 +23,7 @@
     {
         "name": "WebForum",
         "img": "https://raw.githubusercontent.com/m-figon/Portfolio/master/src/projects/forum.png",
-        "description" :"Goal of this project was creating a forum website which allows user to create post and other users to comment it, give it a rating",
+        "description" :"Goal of this project was creating a forum website which allows user to create post and other users to comment it, give it a rating, to sign in use account 'ReactUser' and password: 'hello3' (login allows to upvote, downvote, comment posts)",
         "technologies": ["React","JavaScript","HTML & CSS"],
         "github": "https://github.com/m-figon/WebForum",
         "site": "https://forum-mfigon.netlify.app",
@@ -44,7 +44,7 @@
     {
         "name": "FastTyping",
         "img": "https://raw.githubusercontent.com/m-figon/Portfolio/master/src/projects/typer.png",
-        "description" :"This app makes it possible to practice fast typing skill, user has a strict ammount of time to enter random phrase",
+        "description" :"This app makes it possible to practice fast typing skill, user has a strict ammount of time to enter random phrase, to send answer press enter",
         "technologies": ["JavaScript","HTML & CSS"],
         "github": "https://github.com/m-figon/JSMiniProjects/tree/master/FastTyping",
         "site": "https://fast-typing-mfigon.netlify.app",
@@ -54,7 +54,7 @@
     {
         "name": "Piano",
         "img": "https://raw.githubusercontent.com/m-figon/Portfolio/master/src/projects/piano.png",
-        "description" :"This app makes it possible to play piano and choosing in which octave user wants to play",
+        "description" :"This app makes it possible to play piano and choosing in which octave user wants to play, to play notes click on buttoms or use keys: 1,2,3,4,5,6,7,8,9,0,-,= (third octave), q,w,e,r,t,y,u,i,o,p,[,] (fourth octave), a,s,d,f,g,h,j,k,l (fifth octave)",
         "technologies": ["JavaScript","HTML & CSS"],
         "github" :"https://github.com/m-figon/JSMiniProjects/tree/master/Piano",
         "site": "https://piano-mfigon.netlify.app",
@@ -74,7 +74,7 @@
     {
         "name": "Snake",
         "img": "https://raw.githubusercontent.com/m-figon/Portfolio/master/src/projects/snake.png",
-        "description" :"This is a simple snake game using canvas",
+        "description" :"This is a simple snake game using canvas, to start new game press start, to move use arrow keys on keyboard",
         "technologies": ["JavaScript","HTML & CSS"],
         "github": "https://github.com/m-figon/JSMiniProjects/tree/master/Snake",
         "site": "https://snake-mfigon.netlify.app",
