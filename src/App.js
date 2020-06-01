@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 import { Route } from 'react-router-dom';
 import react from './react.png';
-
+import load from './load.gif';
 import NavigationBar from './navigationBar/navigationBar.jsx';
 import HomeDisplay from './homeDisplay/homeDisplay.jsx';
 import About from './about/about.jsx';
@@ -15,9 +15,27 @@ class App extends Component {
     this.state = {
       appId: "",
       projectId: null,
-      visibleId: ""
+      visibleId: "",
+      loadingId: "visible"
     }
     this.settingBlur = this.settingBlur.bind(this);
+    this.settingState = this.settingState.bind(this);
+
+  }
+  componentDidMount(){
+    let interval=setInterval(()=>{
+      if(document.readyState=="complete"){
+        this.setState({
+          loadingId: "hidden"
+        })
+        clearInterval(interval);
+      }
+    },500)
+  }
+  settingState(array,value){
+    this.setState({
+      [array]: value
+    })
   }
   settingBlur(idValue) {
     if (this.state.appId === "") {
@@ -45,7 +63,7 @@ class App extends Component {
     const AboutPage = () => {
       return (
         <>
-          <About />
+          <About settingState={this.settingState}/>
         </>
       );
     }
@@ -75,9 +93,11 @@ class App extends Component {
             <div className="footer-content">
               <h1>Made with </h1><img src={react} alt=""></img>
             </div>
-
           </div>
         </div>
+        <div className="loading" id={this.state.loadingId}>
+          <img src={load}/>
+          </div>
         <Project projectId={this.state.projectId} visibleId={this.state.visibleId} settingBlur={this.settingBlur}/>
       </>
     );
