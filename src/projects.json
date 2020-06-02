@@ -37,7 +37,7 @@
         "description" :"Goal of this project was creating a game store website, which allows user to  search for a products sorted by console type, add products to shopping cart and also delete it from the cart",
         "technologies": ["React","Sass","JavaScript","HTML & CSS"],
         "github": "https://github.com/m-figon/GameStore",
-        "site": "game-store-mfigon.netlify.app",
+        "site": "https://game-store-mfigon.netlify.app",
         "youtube": "https://www.youtube.com/watch?v=BIPE-ib44nI&list=UUhmaqw5MW-CzQw6cishP-vg&index=1",
         "id":3
     },

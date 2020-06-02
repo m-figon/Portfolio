@@ -24,7 +24,7 @@ class App extends Component {
   }
   componentDidMount(){
     let interval=setInterval(()=>{
-      if(document.readyState=="complete"){
+      if(document.readyState==="complete"){
         this.setState({
           loadingId: "hidden"
         })
