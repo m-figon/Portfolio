@@ -32,6 +32,16 @@
 
     },
     {
+        "name": "Blog",
+        "img": "https://raw.githubusercontent.com/m-figon/Portfolio/master/src/projects/blog.png",
+        "description" :"This app is a simple game which consists of draggin a ball and dropping it in a right place",
+        "technologies": ["Angular","JavaScript","HTML & CSS"],
+        "github": "https://github.com/m-figon/Blog",
+        "site": "https://blog-mfigon.netlify.app",
+        "youtube": "https://www.youtube.com/watch?v=S3BcxnZLfQM&feature=youtu.be",
+        "id":3
+    },
+    {
         "name": "GameStore",
         "img": "https://raw.githubusercontent.com/m-figon/Portfolio/master/src/projects/gamestore.png",
         "description" :"Goal of this project was creating a game store website, which allows user to  search for a products sorted by console type, add products to shopping cart and also delete it from the cart",
@@ -39,7 +49,7 @@
         "github": "https://github.com/m-figon/GameStore",
         "site": "https://game-store-mfigon.netlify.app",
         "youtube": "https://www.youtube.com/watch?v=BIPE-ib44nI&list=UUhmaqw5MW-CzQw6cishP-vg&index=1",
-        "id":3
+        "id":4
     },
     {
         "name": "FastTyping",
@@ -49,7 +59,7 @@
         "github": "https://github.com/m-figon/JSMiniProjects/tree/master/FastTyping",
         "site": "https://fast-typing-mfigon.netlify.app",
         "youtube": "https://www.youtube.com/watch?v=QNE5u1xaTDY",
-        "id":4
+        "id":5
     },
     {
         "name": "Piano",
@@ -59,16 +69,6 @@
         "github" :"https://github.com/m-figon/JSMiniProjects/tree/master/Piano",
         "site": "https://piano-mfigon.netlify.app",
         "youtube": "https://www.youtube.com/watch?v=FZkt_0WmrbU",
-        "id":5
-    },
-    {
-        "name": "DragAndDropGame",
-        "img": "https://raw.githubusercontent.com/m-figon/Portfolio/master/src/projects/drag.png",
-        "description" :"This app is a simple game which consists of draggin a ball and dropping it in a right place",
-        "technologies": ["JavaScript","HTML & CSS"],
-        "github": "https://github.com/m-figon/JSMiniProjects/tree/master/DragAndDrop",
-        "site": "https://drag-and-drop-mfigon.netlify.app",
-        "youtube": "https://www.youtube.com/watch?v=DDA45y11Ees&feature=youtu.be",
         "id":6
     },
     {
