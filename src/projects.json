@@ -21,6 +21,27 @@
 
     },
     {
+        "name": "ClothesShop",
+        "img": "https://raw.githubusercontent.com/m-figon/Portfolio/master/src/projects/clothes.png",
+        "description" :"Goal of this project was creating a shopping website which allows user to look for an item, add it to shopping cart and make an order, to sign in use email 'test@gmail.com' and password: 'test123' (login allows to add items to cart, display cart content, make orders)",
+        "technologies": ["Angular","TypeScript","HTML & CSS","Less"],
+        "github": "https://github.com/m-figon/ClothesShop",
+        "site": "https://clothes-shop-mfigon.netlify.app/",
+        "youtube": "https://www.youtube.com/watch?v=eYi-JxsPTmw&feature=youtu.be",
+        "id":2
+
+    },
+    {
+        "name": "Blog",
+        "img": "https://raw.githubusercontent.com/m-figon/Portfolio/master/src/projects/blog.png",
+        "description" :"Goal of this project was to create a blog website using Angular which allows user to read posts, create them, write comments, create new accounts, to sign in use account 'testUser' and password: 'test123' (login allows to comment posts and create new ones)",
+        "technologies": ["Angular","TypeScript","HTML & CSS","Less"],
+        "github": "https://github.com/m-figon/Blog",
+        "site": "https://blog-mfigon.netlify.app",
+        "youtube": "https://www.youtube.com/watch?v=S3BcxnZLfQM&feature=youtu.be",
+        "id":3
+    },
+    {
         "name": "WebForum",
         "img": "https://raw.githubusercontent.com/m-figon/Portfolio/master/src/projects/forum.png",
         "description" :"Goal of this project was creating a forum website which allows user to create post and other users to comment it, give it a rating, to sign in use account 'ReactUser' and password: 'hello3' (login allows to upvote, downvote, comment posts)",
@@ -28,18 +49,8 @@
         "github": "https://github.com/m-figon/WebForum",
         "site": "https://forum-mfigon.netlify.app",
         "youtube": "https://www.youtube.com/watch?v=fg858RzQ2fQ&list=UUhmaqw5MW-CzQw6cishP-vg&index=3",
-        "id":2
+        "id":4
 
-    },
-    {
-        "name": "Blog",
-        "img": "https://raw.githubusercontent.com/m-figon/Portfolio/master/src/projects/blog.png",
-        "description" :"This app is a simple game which consists of draggin a ball and dropping it in a right place",
-        "technologies": ["Angular","JavaScript","HTML & CSS"],
-        "github": "https://github.com/m-figon/Blog",
-        "site": "https://blog-mfigon.netlify.app",
-        "youtube": "https://www.youtube.com/watch?v=S3BcxnZLfQM&feature=youtu.be",
-        "id":3
     },
     {
         "name": "GameStore",
@@ -49,7 +60,7 @@
         "github": "https://github.com/m-figon/GameStore",
         "site": "https://game-store-mfigon.netlify.app",
         "youtube": "https://www.youtube.com/watch?v=BIPE-ib44nI&list=UUhmaqw5MW-CzQw6cishP-vg&index=1",
-        "id":4
+        "id":5
     },
     {
         "name": "FastTyping",
@@ -59,16 +70,6 @@
         "github": "https://github.com/m-figon/JSMiniProjects/tree/master/FastTyping",
         "site": "https://fast-typing-mfigon.netlify.app",
         "youtube": "https://www.youtube.com/watch?v=QNE5u1xaTDY",
-        "id":5
-    },
-    {
-        "name": "Piano",
-        "img": "https://raw.githubusercontent.com/m-figon/Portfolio/master/src/projects/piano.png",
-        "description" :"This app makes it possible to play piano and choosing in which octave user wants to play, to play notes click on buttoms or use keys: 1,2,3,4,5,6,7,8,9,0,-,= (third octave), q,w,e,r,t,y,u,i,o,p,[,] (fourth octave), a,s,d,f,g,h,j,k,l (fifth octave)",
-        "technologies": ["JavaScript","HTML & CSS"],
-        "github" :"https://github.com/m-figon/JSMiniProjects/tree/master/Piano",
-        "site": "https://piano-mfigon.netlify.app",
-        "youtube": "https://www.youtube.com/watch?v=FZkt_0WmrbU",
         "id":6
     },
     {
