@@ -73,13 +73,13 @@
         "id":6
     },
     {
-        "name": "Snake",
-        "img": "https://raw.githubusercontent.com/m-figon/Portfolio/master/src/projects/snake.png",
-        "description" :"This is a simple snake game using canvas, to start new game press start, to move use arrow keys on keyboard",
-        "technologies": ["JavaScript","HTML & CSS"],
-        "github": "https://github.com/m-figon/JSMiniProjects/tree/master/Snake",
-        "site": "https://snake-mfigon.netlify.app",
-        "youtube": "https://www.youtube.com/watch?v=Tol3exA_25w&list=UUhmaqw5MW-CzQw6cishP-vg&index=5",
+        "name": "AdoptAnimal",
+        "img": "https://raw.githubusercontent.com/m-figon/Portfolio/master/src/projects/adoptanimal.png",
+        "description" :"This is a website made using jQuery which allows user to look for an animal to adopt, send adoption request, get contact informations",
+        "technologies": ["jQuery","Less","JavaScript","HTML & CSS","Sammy.js"],
+        "github": "https://github.com/m-figon/AdoptAnimal",
+        "site": "https://adopt-animal-mfigon.netlify.app/",
+        "youtube": "https://www.youtube.com/watch?v=A1YGX3PdIxk&",
         "id":7
     }
 ]
