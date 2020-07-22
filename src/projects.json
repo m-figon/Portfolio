@@ -63,13 +63,13 @@
         "id":5
     },
     {
-        "name": "FastTyping",
-        "img": "https://raw.githubusercontent.com/m-figon/Portfolio/master/src/projects/typer.png",
-        "description" :"This app makes it possible to practice fast typing skill, user has a strict ammount of time to enter random phrase, to send answer press enter",
-        "technologies": ["JavaScript","HTML & CSS"],
-        "github": "https://github.com/m-figon/JSMiniProjects/tree/master/FastTyping",
-        "site": "https://fast-typing-mfigon.netlify.app",
-        "youtube": "https://www.youtube.com/watch?v=QNE5u1xaTDY",
+        "name": "MusicStreaming",
+        "img": "https://raw.githubusercontent.com/m-figon/Portfolio/master/src/projects/music.png",
+        "description" :"Goal of this project was creating a music streaming website which allows user to search for song, choose it, listen to it or add it to playlist when user is logged. User can also change account settings",
+        "technologies": ["Vue","JavaScript","HTML & CSS","Sass","VueYoutube"],
+        "github": "https://github.com/m-figon/MusicStreaming",
+        "site": "https://music-streaming-mfigon.netlify.app/",
+        "youtube": "",
         "id":6
     },
     {
