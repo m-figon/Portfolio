@@ -3,7 +3,7 @@
         "name": "FitnessTracker",
         "img": "https://raw.githubusercontent.com/m-figon/Portfolio/master/src/projects/fitness.png",
         "description" :"Goal of this project was creating a fitness app website, which allows users to track calories by adding meals, set nutrition goals, track body weight and workout progress",
-        "technologies": ["React","Chart.js","JavaScript","HTML & CSS"],
+        "technologies": ["React","Chart.js","JavaScript","HTML & CSS","Less"],
         "github": "https://github.com/m-figon/FitnessTracker",
         "site": "https://fitness-mfigon.netlify.app",
         "youtube": "https://www.youtube.com/watch?v=z5oFjV2dn68",
@@ -45,7 +45,7 @@
         "name": "WebForum",
         "img": "https://raw.githubusercontent.com/m-figon/Portfolio/master/src/projects/forum.png",
         "description" :"Goal of this project was creating a forum website which allows user to create post and other users to comment it, give it a rating, to sign in use account 'ReactUser' and password: 'hello3' (login allows to upvote, downvote, comment posts)",
-        "technologies": ["React","JavaScript","HTML & CSS"],
+        "technologies": ["React","JavaScript","HTML & CSS", "Sass"],
         "github": "https://github.com/m-figon/WebForum",
         "site": "https://forum-mfigon.netlify.app",
         "youtube": "https://www.youtube.com/watch?v=fg858RzQ2fQ&list=UUhmaqw5MW-CzQw6cishP-vg&index=3",
@@ -53,13 +53,13 @@
 
     },
     {
-        "name": "GameStore",
-        "img": "https://raw.githubusercontent.com/m-figon/Portfolio/master/src/projects/gamestore.png",
-        "description" :"Goal of this project was creating a game store website, which allows user to  search for a products sorted by console type, add products to shopping cart and also delete it from the cart",
-        "technologies": ["React","Sass","JavaScript","HTML & CSS"],
-        "github": "https://github.com/m-figon/GameStore",
-        "site": "https://game-store-mfigon.netlify.app",
-        "youtube": "https://www.youtube.com/watch?v=BIPE-ib44nI&list=UUhmaqw5MW-CzQw6cishP-vg&index=1",
+        "name": "MovieTheater",
+        "img": "https://raw.githubusercontent.com/m-figon/Portfolio/master/src/projects/movie.png",
+        "description" :"Goal of this project was creating a movie theater website which allows user to search for movie, view details information about it, order seats for specific hour, view user's orders. To sign in use account 'testUser' and password: 'TestUser.123' (login allows to order ticket for a movie, view orders)",
+        "technologies": ["Vue","JavaScript","HTML & CSS","Less","VueYoutube"],
+        "github": "https://github.com/m-figon/MovieTheater",
+        "site": "https://movie-theater-mfigon.netlify.app",
+        "youtube": "https://www.youtube.com/watch?v=2HhmHlAzknc",
         "id":5
     },
     {
