@@ -50,12 +50,11 @@
         "site": "https://forum-mfigon.netlify.app",
         "youtube": "https://www.youtube.com/watch?v=fg858RzQ2fQ&list=UUhmaqw5MW-CzQw6cishP-vg&index=3",
         "id":4
-
     },
     {
         "name": "MovieTheater",
         "img": "https://raw.githubusercontent.com/m-figon/Portfolio/master/src/projects/movie.png",
-        "description" :"Goal of this project was creating a movie theater website which allows user to search for movie, view details information about it, order seats for specific hour, view user's orders. To sign in use account 'testUser' and password: 'TestUser.123' (login allows to order ticket for a movie, view orders)",
+        "description" :"Goal of this project was creating a movie theater website which allows user to search for movie, view details information about it, order seats for specific hour, view user's orders. To sign in use account 'testUser' and password: 'TestUser.123'",
         "technologies": ["Vue","JavaScript","HTML & CSS","Less","VueYoutube"],
         "github": "https://github.com/m-figon/MovieTheater",
         "site": "https://movie-theater-mfigon.netlify.app",
@@ -81,5 +80,15 @@
         "site": "https://adopt-animal-mfigon.netlify.app/",
         "youtube": "https://www.youtube.com/watch?v=fE9_P8jVh3M",
         "id":7
+    },
+    {
+        "name": "MusialInstruments",
+        "img": "https://raw.githubusercontent.com/m-figon/Portfolio/master/src/projects/instruments.png",
+        "description" :"Goal of this project was creating a music shop website which allows user to search for an instrument, view details information about it, order it, view user's orders. To sign in use account 'testUser' and password: 'TestUser.123'",
+        "technologies": ["AngularJS","Sass","JavaScript","HTML & CSS","moment.js"],
+        "github": "https://github.com/m-figon/MusicalInstruments",
+        "site": "https://musical-instruments-mfigon.netlify.app/",
+        "youtube": "https://www.youtube.com/watch?v=RI1mmMEAmHQ",
+        "id":8
     }
 ]
