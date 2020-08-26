@@ -90,5 +90,15 @@
         "site": "https://musical-instruments-mfigon.netlify.app/",
         "youtube": "https://www.youtube.com/watch?v=RI1mmMEAmHQ",
         "id":8
+    },
+    {
+        "name": "BookHotel",
+        "img": "https://raw.githubusercontent.com/m-figon/Portfolio/master/src/projects/bookhotel.png",
+        "description" :"Goal of this project was creating a site for hotels reservation which allows user to search for hotel with free rooms, view details information about it, reserve it for a specific date. To sign in use account 'testUser' and password: 'TestUser.123' (login allows to make order, view orders, add hotel opinion)",
+        "technologies": ["AngularJS","Sass","JavaScript","HTML & CSS","moment.js"],
+        "github": "https://github.com/m-figon/BookHotel",
+        "site": "https://book-hotel-mfigon.netlify.app/",
+        "youtube": "https://www.youtube.com/watch?v=nPCALG_NkQ4",
+        "id":9
     }
 ]
