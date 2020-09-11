@@ -100,5 +100,25 @@
         "site": "https://book-hotel-mfigon.netlify.app/",
         "youtube": "https://www.youtube.com/watch?v=nPCALG_NkQ4",
         "id":9
+    },
+    {
+        "name": "Organizer",
+        "img": "https://raw.githubusercontent.com/m-figon/Portfolio/master/src/projects/organizer.jpg",
+        "description" :"Goal of this project was creating a to do list app. To sign in use account 'testUser' and password: 'TestUser.123' (login allows to edit and view to do list)",
+        "technologies": ["React Native","JavaScript","underscore.js"],
+        "github": "https://github.com/m-figon/Organizer",
+        "site": "",
+        "youtube": "https://www.youtube.com/watch?v=gaQwphHKVEQ",
+        "id":10
+    },
+    {
+        "name": "Communicator",
+        "img": "https://raw.githubusercontent.com/m-figon/Portfolio/master/src/projects/communicator.jpg",
+        "description" :"Goal of this project was creating a communicator app which allows user to add other users to friend list and chat with them. (to acces app functionality user must be logged, To sign in use account 'testUser' and password: 'TestUser.123'",
+        "technologies": ["React Native","JavaScript","moment.js"],
+        "github": "https://github.com/m-figon/Communicator",
+        "site": "",
+        "youtube": "https://www.youtube.com/watch?v=nJQF-gcDXTg",
+        "id":11
     }
 ]
